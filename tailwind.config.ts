@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        barlow: ["Barlow Semi Condensed", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +60,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        yellow: "hsl(var(--yellow))",
+        "dark-brown": "hsl(var(--dark-brown))",
+        "medium-brown": "hsl(var(--medium-brown))",
+        cream: "hsl(var(--cream))",
       },
       borderRadius: {
         lg: "var(--radius)",
